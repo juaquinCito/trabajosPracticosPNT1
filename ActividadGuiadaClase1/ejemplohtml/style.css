@@ -1,0 +1,93 @@
+body {
+    background: rgb(245, 245, 245);
+    color: black;
+    font-size: 25px;
+    font-family: Helvetica;
+}
+
+/*     Siempre priorizará la hoja de estilo sobre el estilo embebido!!!     */
+/*p {
+    background: rgb(245, 0, 0);
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}*/
+
+h1 {
+    font-family: Courier;
+    color: red;
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: Courier;
+    color: pink;
+    font-weight: lighter;
+    font-size: 8px;
+}
+
+a {
+    color: blue;
+}
+
+
+#banner {
+    text-align: center;
+    /*alineamiento del texto*/
+    background-image: url("https://unsplash.it/1300/600?random");
+    /* imagen de fondo*/
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#banner p {
+    color: black;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#banner p a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+
+#footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    /*fondo*/
+    color: lightgrey;
+}
+
+.tarjeta {
+    padding: 50px;
+    /*el pading da separacion hacia abajo*/
+    font-weight: lighter;
+    /*claridad de la fuente*/
+}
+
+#footer a {
+    color: lightgrey;
+    /*color de la fuente*/
+    font-size: 25px;
+    /*tamaño fuente*/
+}
+
+#footer a:hover {
+    color: black;
+    /*mi estilo xD*/
+}
+
+#container {
+    /*mi estilo xD*/
+    background: lightgrey;
+}
